@@ -1,3 +1,4 @@
+# Ignore input output test cases files
 *.in
 *.res
 *.exe
