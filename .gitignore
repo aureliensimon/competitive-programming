@@ -1,4 +1,4 @@
-# Ignore input output test cases files
+# Ignore i/o test cases files
 *.in
 *.res
 *.exe
