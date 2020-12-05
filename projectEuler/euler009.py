@@ -13,10 +13,11 @@ Find the product abc.
 def uniqueTriplet (target):
     val = -1
     for a in range(1, int(target / 3)):
-        b = int((target * target - 2 * target * a)/(2 * target - 2 * a))
+        b = int((target * (target - 2 * a)) / (2 * (target - a)))
         c = target - a - b
         if ((a**2 + b**2) == c**2) and (a*b*c > val):
             val = a * b *c
+            break
     return val
 
 n = 1000
