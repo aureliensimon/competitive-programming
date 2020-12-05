@@ -16,7 +16,7 @@ def is_prime (n):
 
 def solve (limit):
     nb_primes = 0
-    
+
     for p in range(1, 1000000):
        if p > 1 and is_prime(p):
            nb_primes += 1
