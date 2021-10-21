@@ -1,4 +1,5 @@
 # Ignore i/o test cases files
-*.in
+*.i
+*.o
 *.res
 *.exe
